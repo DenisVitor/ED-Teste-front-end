@@ -1,0 +1,24 @@
+/* Global color variables for the app */
+:root {
+  --color-bg: #f3f4f6;
+  --color-surface: #ffffff;
+  --color-surface-2: #f9fafb;
+  --color-surface-3: #f5f5f5;
+  --color-primary: #76b900;
+  --color-primary-2: #77b902;
+  --color-dark: #0c0a08;
+  --color-ink: #000000;
+  --color-ink-dim: #333333;
+  --color-muted: #64748b;
+  --color-green-dark: #166534;
+  --color-yellow-soft: #fff9c4;
+  --color-teal-soft: #dcfce7;
+  --color-deep: #1a1a1a;
+  --color-gray-border: #e5e7eb;
+  --color-gray-border-2: #e2e8f0;
+  --color-placeholder: #94a3b8;
+  --color-text-1: #5c6b48;
+  --color-text-2: #334155;
+  --color-text-3: #525252;
+  --color-success: #77b902;
+}

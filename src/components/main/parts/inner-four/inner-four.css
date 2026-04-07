@@ -1,0 +1,13 @@
+.main .main-inner-four {
+  background-color: var(--color-deep);
+  color: var(--color-surface);
+  width: 60%;
+  border-radius: 8px;
+  padding: 32px;
+}
+.main .main-inner-four p {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-md);
+  line-height: 29.25px;
+}

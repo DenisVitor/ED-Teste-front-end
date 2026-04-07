@@ -1,0 +1,20 @@
+.main .main-inner-one {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 32px;
+}
+.main .main-inner-one h1 {
+  font-weight: var(--font-weight-900);
+  font-size: var(--font-size-xxl);
+}
+.main .main-inner-one p {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-md);
+  color: var(--color-text-1);
+}
+.main .main-inner-one img {
+  margin-top: 56px;
+  border-radius: 8px;
+}

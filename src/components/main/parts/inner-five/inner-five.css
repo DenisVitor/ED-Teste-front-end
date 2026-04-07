@@ -1,0 +1,75 @@
+.main .main-inner-five {
+  display: flex;
+  gap: 64px;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+.main .main-inner-five li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23%;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+}
+.main .main-inner-five li div {
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  height: 320px;
+  background-color: var(--color-surface-2);
+}
+.main .main-inner-five li div svg {
+  margin-top: 45%;
+}
+.main .main-inner-five li div p {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-sm);
+  line-height: 26px;
+  color: var(--color-text-1);
+}
+.main .main-inner-five li div button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+  margin-bottom: 32px;
+  color: var(--color-ink);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-gray-border);
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+.main .main-inner-five li div button:hover {
+  background-color: var(--color-dark);
+  border-color: var(--color-dark);
+  color: var(--color-surface);
+}
+.main .main-inner-five .unflipped {
+  animation: flipleft 0.5s ease reverse;
+}
+.main .main-inner-five .flipped {
+  animation: flipright 0.5s ease forwards;
+}
+.main .main-inner-five .flipped div {
+  background-color: var(--color-dark);
+  padding: 32px;
+}
+.main .main-inner-five .flipped button {
+  margin-top: 32px;
+  background-color: var(--color-dark);
+  color: var(--color-surface);
+  border: 1px solid #4b5563;
+}
+.main .main-inner-five .flipped button:hover {
+  color: var(--color-ink);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-gray-border);
+}

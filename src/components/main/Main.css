@@ -1,0 +1,40 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/scrollbar";
+
+/* variables */
+@import "../../styles/colors.css";
+@import "../../styles/typhography.css";
+
+/* parts */
+@import "./parts/inner-one/inner-one.css";
+@import "./parts/inner-two/inner-two.css";
+@import "./parts/inner-three/inner-three.css";
+@import "./parts/inner-four/inner-four.css";
+@import "./parts/inner-five/inner-five.css";
+@import "./parts/inner-six/inner-six.css";
+@import "./parts/inner-seven/inner-seven.css";
+@import "./parts/inner-eight/inner-eight.css";
+@import "./parts/inner-nine/inner-nine.css";
+
+/* root main container styles kept here */
+.main {
+  display: flex;
+  font-family: var(--font-family-sans);
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 32px 80.5px 32px;
+  gap: 64px;
+  background-color: var(--color-bg);
+}
+
+/* small reusable animation rules (kept global for this component) */
+@keyframes flipleft {
+  0% { transform: rotate3d(0, 1, 0, -15deg); }
+  100% { transform: rotate3d(0, 1, 0, 90deg); opacity: 0; }
+}
+@keyframes flipright {
+  0% { transform: rotate3d(0, 1, 0, 90deg); opacity: 0; }
+  100% { transform: rotate3d(0, 1, 0, -15deg); }
+}

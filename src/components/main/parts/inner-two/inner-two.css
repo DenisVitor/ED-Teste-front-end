@@ -1,0 +1,26 @@
+.main .main-inner-two {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-surface);
+  gap: 3rem;
+  width: 70%;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 32px;
+}
+.main .main-inner-two img {
+  width: 40%;
+}
+.main .main-inner-two div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+.main .main-inner-two div p {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-sm);
+  line-height: 26px;
+  color: var(--color-text-1);
+}

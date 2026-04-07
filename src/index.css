@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/liberation-mono?styles=573,572,571,570");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+ul,
+li {
+  list-style: none;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  width: auto !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  transition: 0.1s ease;
+  background: #000 !important;
+}
+
+.controls-wrapper:has(.custom-next:hover) .swiper-pagination-bullet-active {
+  background: #76b900 !important;
+}
+
+@keyframes flipleft {
+  0% {
+    transform: rotate3d(0, 1, 0, -15deg);
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 90deg);
+    opacity: 0;
+  }
+}
+@keyframes flipright {
+  0% {
+    transform: rotate3d(0, 1, 0, 90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, -15deg);
+  }
+}

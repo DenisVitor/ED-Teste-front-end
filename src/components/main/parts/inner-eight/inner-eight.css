@@ -1,0 +1,110 @@
+.main .main-inner-eight {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 32px;
+  background-color: var(--color-surface);
+  padding: 32px;
+  border-radius: 8px;
+}
+.main .main-inner-eight .main-inner-eight-title {
+  display: flex;
+  gap: 16px;
+}
+.main .main-inner-eight .main-inner-eight-title img {
+  width: 40px;
+  height: 40px;
+}
+.main .main-inner-eight h2 {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-700);
+  font-size: var(--font-size-lg);
+  margin-bottom: 16px;
+}
+.main .main-inner-eight p {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-md);
+  color: var(--color-text-1);
+}
+.main .main-inner-eight ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.main .main-inner-eight .checkbox-custom {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--color-gray-border-2);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main-inner-eight li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-2);
+  border: 1px solid var(--color-gray-border-2);
+  padding: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.main .main-inner-eight .selected {
+  background-color: var(--color-dark);
+  color: var(--color-surface);
+  border: 1px solid var(--color-dark);
+}
+.main .main-inner-eight .selected .checkbox-custom {
+  background-color: var(--color-surface);
+  border-color: var(--color-surface);
+}
+.main .main-inner-eight .main-inner-eight-buttons {
+  display: flex;
+  gap: 16px;
+}
+.main .main-inner-eight .main-inner-eight-buttons button {
+  all: unset;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 24px;
+  cursor: pointer;
+  background-color: var(--color-ink);
+  color: var(--color-surface);
+}
+.main .main-inner-eight .main-inner-eight-buttons button:hover {
+  background-color: var(--color-primary);
+}
+
+.main .main-inner-eight .main-inner-eight-buttons .disabled {
+  cursor: not-allowed;
+  background: var(--color-bg);
+  color: #9ca3af;
+  &:hover {
+    background: var(--color-bg);
+    color: #9ca3af;
+  }
+}
+
+.main .main-inner-eight .main-inner-eight-popup {
+  flex-direction: column;
+  padding: 16px 24px;
+  border-radius: 4px;
+  background-color: var(--color-yellow-soft);
+  color: #713f12;
+}
+.main .main-inner-eight .main-inner-eight-popup-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.main .main-inner-eight .main-inner-eight-popup p {
+  font-size: 14px;
+  cursor: pointer;
+}

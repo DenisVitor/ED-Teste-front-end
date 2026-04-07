@@ -1,0 +1,86 @@
+.main .main-inner-seven {
+  background-color: var(--color-surface);
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 24px;
+  gap: 32px;
+}
+.main .main-inner-seven .main-inner-seven-title {
+  display: flex;
+  gap: 16px;
+}
+.main .main-inner-seven .main-inner-seven-title img {
+  width: 40px;
+  height: 40px;
+}
+.main .main-inner-seven h1 {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-700);
+  font-size: var(--font-size-lg);
+  margin-bottom: 16px;
+}
+.main .main-inner-seven p {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-md);
+  color: var(--color-text-1);
+}
+.main .main-inner-seven textarea {
+  min-height: 160px;
+  outline: none;
+  border: 1px solid var(--color-gray-border-2);
+  border-radius: 8px;
+  padding: 16px;
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-400);
+}
+.main .main-inner-seven textarea::placeholder {
+  color: var(--color-placeholder);
+}
+.main .main-inner-seven .main-inner-seven-buttons {
+  display: flex;
+  gap: 16px;
+}
+.main .main-inner-seven .main-inner-seven-buttons button {
+  all: unset;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 24px;
+  cursor: pointer;
+  background-color: var(--color-ink);
+  color: var(--color-surface);
+}
+.main .main-inner-seven .main-inner-seven-buttons button:hover {
+  background-color: var(--color-primary);
+}
+.main .main-inner-seven .main-inner-seven-buttons .disabled {
+  cursor: not-allowed;
+  background: var(--color-bg);
+  color: #9ca3af;
+  &:hover {
+    background: var(--color-bg);
+    color: #9ca3af;
+  }
+}
+.main .main-inner-seven .main-inner-seven-popup {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: var(--color-teal-soft);
+  color: var(--color-green-dark);
+}
+.main .main-inner-seven .main-inner-seven-popup-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.main .main-inner-seven .main-inner-seven-popup-title h2 {
+  font-size: 16px;
+}
+.main .main-inner-seven .main-inner-seven-popup p {
+  font-size: 14px;
+}
