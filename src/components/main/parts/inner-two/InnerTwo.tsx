@@ -1,8 +1,9 @@
 import "./inner-two.css";
+import waveImg from '../../../../assets/wave.png';
 export default function InnerTwo() {
   return (
     <div className="main-inner-two">
-      <img src="../../../../src/assets/wave.png" alt="wave" />
+      <img src={waveImg} alt="wave" />
       <div>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit

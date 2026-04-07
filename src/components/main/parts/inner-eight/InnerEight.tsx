@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./inner-eight.css";
+import questionImg from '../../../../assets/question.png';
 
 export default function InnerEight() {
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
@@ -9,7 +10,7 @@ export default function InnerEight() {
   return (
     <div className="main-inner-eight">
       <div className="main-inner-eight-title">
-        <img src="../../../../src/assets/question.png" alt="" />
+        <img src={questionImg} alt="" />
         <div>
           <h2>Atividade Objetiva</h2>
           <p>

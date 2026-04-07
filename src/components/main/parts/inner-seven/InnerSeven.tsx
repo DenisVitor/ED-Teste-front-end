@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./inner-seven.css";
+import scriptImg from '../../../../assets/script.png';
 
 export default function InnerSeven() {
   const [answer, setAnswer] = useState("");
@@ -9,7 +10,7 @@ export default function InnerSeven() {
   return (
     <div className="main-inner-seven">
       <div className="main-inner-seven-title">
-        <img src="../../../../src/assets/script.png" alt="" />
+        <img src={scriptImg} alt="" />
         <div>
           <h1>Atividade Discursiva</h1>
           <p>

@@ -1,4 +1,5 @@
 import "./inner-one.css";
+import videoImg from '../../../../assets/video.png';
 export default function InnerOne() {
   return (
     <div className="main-inner-one">
@@ -7,7 +8,7 @@ export default function InnerOne() {
         It is a long established fact that a reader will be distracted by the
         readable content of a page when looking at its layout.
       </p>
-      <img src="../../../../src/assets/video.png" alt="video" />
+      <img src={videoImg} alt="video" />
     </div>
   );
 }

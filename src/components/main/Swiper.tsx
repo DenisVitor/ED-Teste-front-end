@@ -1,4 +1,5 @@
 import { useState } from "react";
+import forestImg from '../../assets/forest.png';
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -28,13 +29,13 @@ function SwiperSlideImage() {
         }}
       >
         <SwiperSlide>
-          <img src="../../../src/assets/forest.png" alt="forest" />
+          <img src={forestImg} alt="forest" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../src/assets/forest.png" alt="forest" />
+          <img src={forestImg} alt="forest" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../src/assets/forest.png" alt="forest" />
+          <img src={forestImg} alt="forest" />
         </SwiperSlide>
       </Swiper>
 

@@ -1,13 +1,15 @@
 import './Header.css';
 import '../../styles/animations.css';
 import useAnimateOnScroll from '../../hooks/useAnimateOnScroll';
+import barImg from '../../assets/bar.png';
+import panelImg from '../../assets/panel.png';
 
 function Header() {
   const ref = useAnimateOnScroll({ once: true });
   return (
     <>
       <header ref={ref as any} className="header">
-        <img src="../src/assets/bar.png" alt="" className='image-bar' />
+        <img src={barImg} alt="" className='image-bar' />
         <div className="header-inner-one">
           <h1 className="fade-up">
             Lorem ipsum dolor, sit <span>amet</span>
@@ -34,7 +36,7 @@ function Header() {
           </button>
         </div>
         <div className="header-inner-two">
-          <img src="../src/assets/panel.png" alt="panel" className="zoom-in" />
+          <img src={panelImg} alt="panel" className="zoom-in" />
         </div>
       </header>
     </>
